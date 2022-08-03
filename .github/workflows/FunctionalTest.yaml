@@ -11,7 +11,7 @@ jobs:
            uses: anuraag-k/TestCodeRepo@main
            with:
             projectDirectory: C:\Users\Administrator\IBM\rationalsdp\workspace\FT1
-            scriptName: Script11
+            scriptName: Script1
             iterationCount:           
             logFormat: 
             userArguments:
