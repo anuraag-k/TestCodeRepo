@@ -1,0 +1,17 @@
+name: HCL OneTest UI
+
+on: workflow_dispatch
+
+jobs:
+    UI-Action:
+        runs-on: self-hosted
+        name: HCL OneTest UI
+        steps:
+         - name: Execute Test
+           uses: anuraag-k/FunctionalTestAction@main
+           with:
+            projectDirectory: 
+            scriptName: 
+            iterationCount:           
+            logFormat: 
+            userArguments:
