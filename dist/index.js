@@ -8980,7 +8980,7 @@ const main = async () =>
             + args;
         }
         else if (process.platform == 'win32') {
-            script = 'cd ' + '"' + productpath + '\\jdk\\jre\\bin"' + '\n' + 'java.exe -jar "' + productpath + '\\FunctionalTester\\bin\\hcl_ft.jar"'
+            script = 'cd ' + '"' + productpath + '\\jdk\\jre\\bin"' + '\n' + 'java.exe -jar "' + productpath + '\\FunctionalTester\\bin\\rational_ft.jar"'
             + ' -datastore ' + projectdir
             + ' -playback ' + suite
             + ' \"-rt.log_format\" ' + logformat
