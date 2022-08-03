@@ -10,8 +10,8 @@ jobs:
          - name: Execute Test
            uses: anuraag-k/TestCodeRepo@main
            with:
-            projectDirectory: 
-            scriptName: 
+            projectDirectory: C:\Users\anuraag.k\IBM\rationalsdp\workspace\FT1
+            scriptName: Script1
             iterationCount:           
             logFormat: 
             userArguments:
